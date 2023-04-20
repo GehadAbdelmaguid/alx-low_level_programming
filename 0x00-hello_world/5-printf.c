@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Print a string
- * Description: use printf 
+ * main - Print with proper grammar, but the outcome is a piece of art,
+ * Description: use printf
  * Return: Always 0 (Success)
  */
 
