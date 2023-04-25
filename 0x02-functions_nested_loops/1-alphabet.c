@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - print the alphabet, in lowercase
- *
- * Describtion: Function that prints the alphabet,
+ * print_alphabet - Function that prints the alphabet,
  *in lowercase, followed by a new line.
  *
  * Return: void
