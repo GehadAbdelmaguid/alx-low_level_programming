@@ -9,20 +9,17 @@
 
 void rev_string(char *s)
 {
-	int length, i, h;
-	char reverse;
+	int count = 0;
+	int i;
+	char reverse = s[0];
 
-	for (length = 0; s[length] != '\0'; length++)
+	while (s[count] != '\0')
+		count++;
+	for (i = 0; i < count; i++)
 	{
-		;
-		i = 0;
-		h = length / 2;
-	}
-	while (h--)
-	{
-		reverse = s[length - i - 1];
-		s[length - i - 1] = s[i];
-		s[i] = reverse;
-		i++;
+		count--;
+		reverse = s[i];
+		s[i] = s[count];
+		s[count] = reverse;
 	}
 }
